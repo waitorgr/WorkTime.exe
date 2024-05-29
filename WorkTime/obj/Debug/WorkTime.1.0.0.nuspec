@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WorkTime</id>
+    <version>1.0.0</version>
+    <authors>WorkTime</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="aa370cd802f9670fc44cc947adf64af7e2915b26" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="AE.Net.Mail" version="1.7.10" exclude="Build,Analyzers" />
+        <dependency id="DocX" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Google.Apis" version="1.68.0" exclude="Build,Analyzers" />
+        <dependency id="Google.Apis.Auth" version="1.68.0" exclude="Build,Analyzers" />
+        <dependency id="Google.Apis.Gmail.v1" version="1.68.0.3399" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite" version="8.0.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Office.Interop.Word" version="15.0.4797.1004" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\VS prog\C#\WorkTime\WorkTime\bin\Debug\net8.0\WorkTime.runtimeconfig.json" target="lib\net8.0\WorkTime.runtimeconfig.json" />
+    <file src="D:\VS prog\C#\WorkTime\WorkTime\bin\Debug\net8.0\WorkTime.dll" target="lib\net8.0\WorkTime.dll" />
+  </files>
+</package>
